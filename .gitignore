@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Large datasets / generated files
+*.zip
+*.tar
+*.tar.gz
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Local model/cache
+models/cache/

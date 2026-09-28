@@ -1,0 +1,5 @@
+FROM ./models/devops-sentinel-q4_k_m.gguf
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.8
+PARAMETER top_k 20
