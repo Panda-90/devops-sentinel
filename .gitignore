@@ -39,3 +39,6 @@ Thumbs.db
 
 # Local model/cache
 models/cache/
+
+# Vector storage
+data/chromadb/
